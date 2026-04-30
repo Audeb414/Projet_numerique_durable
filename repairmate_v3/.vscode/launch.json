@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ Lancer le serveur RepairMate",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/server.js",
+      "cwd": "${workspaceFolder}/backend",
+      "runtimeExecutable": "node",
+      "console": "integratedTerminal",
+      "restart": true,
+      "env": {
+        "PORT": "3000"
+      }
+    }
+  ]
+}
