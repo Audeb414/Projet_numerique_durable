@@ -95,7 +95,7 @@ main { padding: 1.8rem 0 3rem; }
 .stat-card .stat-lbl { font-size: 0.8rem; color: var(--gray); margin-top: 0.2rem; }
 
 /* Green box */
-.green-box { background: var(--green-pale); border-left: 4px solid var(--green); padding: 0.9rem 1.1rem; border-radius: 0 var(--radius) var(--radius) 0; margin-bottom: 1.2rem; font-size: 0.87rem; color: var(--green); }
+.green-box { background: var(--green-pale); border-left: 4px solid var(--green); padding: 0.9rem 1.1rem; border-radius: 0 var(--radius) var(--radius) 0; margin-bottom: 1.2rem; font-size: 0.87rem; color: var(--gray-dark); }
 .green-box strong { display: block; margin-bottom: 0.2rem; }
 
 /* Filtres */
