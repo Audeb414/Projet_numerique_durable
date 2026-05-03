@@ -1,0 +1,27 @@
+# ── Dépendances ────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+
+# ── Base de données (générée au runtime) ───────────────────────────
+database/repairmate.db
+*.db
+*.sqlite
+
+# ── Variables d'environnement (JAMAIS dans le dépôt) ───────────────
+.env
+.env.local
+.env.production
+
+# ── Éditeurs / OS ──────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Logs ───────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Build / cache ──────────────────────────────────────────────────
+dist/
+.cache/
